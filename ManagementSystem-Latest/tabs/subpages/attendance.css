@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  background-color: blue;
+  text-align: center;
+
+}
+.container{
+
+}
+.Attendance-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.Attendance-container > div{
+  padding: 100px 0;
+
+}
+.side{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  grid-row: 1 / 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display:
+}
+.left-top {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+
+}
+.bottom {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  grid-row: 1/ 2;
+  font-size: 30px;
+
+}
